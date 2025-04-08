@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import { DragDropContext, DropResult } from 'react-beautiful-dnd'
+import { DropResult } from 'react-beautiful-dnd'
 import { Plus, X } from 'lucide-react'
 import List from '../List/List'
+import DragDropContext from '../DragDropContext'
 
 interface Card {
   id: string
