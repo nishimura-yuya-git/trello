@@ -18,7 +18,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({
   id,
-  index,
+  index: _index,
   content,
   listId,
   onEdit,
@@ -35,7 +35,7 @@ const Card: React.FC<CardProps> = ({
   return (
     <div
       ref={cardRef}
-      draggable
+      draggable="true"
       onDragStart={(e) => onDragStart(e, id, listId)}
       className="bg-white p-3 rounded-md shadow mb-2 hover:bg-gray-50 cursor-grab"
       data-card-id={id}
