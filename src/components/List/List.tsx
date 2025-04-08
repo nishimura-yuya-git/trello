@@ -1,5 +1,5 @@
 import React from 'react'
-import { Droppable } from 'react-beautiful-dnd'
+import { Droppable } from '@hello-pangea/dnd'
 import { Plus, Trash2 } from 'lucide-react'
 import Card from '../Card/Card'
 
